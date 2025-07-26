@@ -41,3 +41,25 @@ footer {
     display: block;
     margin: 1em auto;
 }
+
+.bio-container {
+    display: flex;
+    align-items: flex-start;
+}
+
+.bio-text {
+    margin-left: 20px;
+}
+
+.news-item {
+    border: 1px solid #ccc;
+    padding: 1em;
+    display: flex;
+    align-items: center;
+    margin-bottom: 1em;
+}
+
+.news-photo {
+    max-width: 150px;
+    margin-right: 1em;
+}
