@@ -35,3 +35,9 @@ footer {
     background-color: #333;
     color: #fff;
 }
+.profile-photo {
+    max-width: 200px;
+    border-radius: 50%;
+    display: block;
+    margin: 1em auto;
+}
