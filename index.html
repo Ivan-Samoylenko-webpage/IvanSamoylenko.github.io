@@ -9,23 +9,45 @@
 <body>
     <header>
         <h1>Dr. Science Example</h1>
-        <p>как любой уважающий себя PhD я должен иметь сайт - следую тренду</p>
         <nav>
             <ul>
                 <li><a href="index.html">Welcome</a></li>
                 <li><a href="research.html">Research</a></li>
-                <li><a href="publications.html">Publications</a></li>
                 <li><a href="teaching.html">Teaching</a></li>
                 <li><a href="contact.html">Contact</a></li>
             </ul>
         </nav>
     </header>
     <main>
-        <section>
+        <section class="bio">
             <h2>Bio</h2>
-            <img src="photo.jpg" alt="Profile photo" class="profile-photo">
-            <p>This is a short biography of the scientist.</p>
-            <p><a href="publications.html">See my publications</a></p>
+            <div class="bio-container">
+                <img src="photo.jpg" alt="Profile photo" class="profile-photo">
+                <div class="bio-text">
+                    <p>As any self-respecting PhD, I must have a website — following the trend.</p>
+                    <p>This is a short biography of the scientist.</p>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <h2>Publications</h2>
+            <ol>
+                <li><a href="https://example.com/paper1">First Example Paper</a>, Journal A, 2020</li>
+                <li><a href="https://example.com/paper2">Second Example Paper</a>, Journal B, 2021</li>
+                <li><a href="https://example.com/paper3">Third Example Paper</a>, Journal C, 2022</li>
+            </ol>
+        </section>
+
+        <section>
+            <h2>News</h2>
+            <div class="news-item">
+                <img src="news.jpg" alt="News image" class="news-photo">
+                <div class="news-text">
+                    <p>Latest update goes here.</p>
+                    <a href="#">Read more</a>
+                </div>
+            </div>
         </section>
     </main>
     <footer>
