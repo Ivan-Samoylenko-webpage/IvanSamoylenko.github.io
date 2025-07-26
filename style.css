@@ -69,3 +69,27 @@ footer {
     border: 3px solid #ff5722;
     padding: 1em;
 }
+
+.project-box {
+    border: 1px solid #ccc;
+    padding: 1em;
+    margin-bottom: 1em;
+}
+
+.section-nav {
+    list-style-type: none;
+    padding: 0;
+    margin-bottom: 1em;
+    text-align: center;
+}
+
+.section-nav li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.section-divider {
+    border: 0;
+    border-top: 1px solid #000;
+    margin: 2em 0;
+}
